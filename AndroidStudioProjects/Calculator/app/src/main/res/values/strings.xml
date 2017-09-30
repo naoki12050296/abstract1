@@ -4,5 +4,18 @@
     <string name="persons">人数は？（必須）</string>
     <string name="campaign">カンパ金額は？（任意）</string>
     <string name="round_down">切り捨て金額</string>
+
+    <string-array name="test_array">
+        <item>あいうえお</item>
+        <item>かきくけこ</item>
+        <item>さしすせそ</item>
+        <item>たちつてと</item>
+        <item>なにぬねの</item>
+        <item>はひふへほ</item>
+        <item>まみむめも</item>
+        <item>や　ゆ　よ</item>
+        <item>らりるれろ</item>
+        <item>わをん　　</item>
+    </string-array>
 </resources>
 

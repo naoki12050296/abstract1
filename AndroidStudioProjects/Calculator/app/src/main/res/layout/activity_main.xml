@@ -40,20 +40,18 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/persons"
-        android:layout_weight="1"
-        android:textColor="#8A2BE2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/persons"
+            android:layout_weight="1"
+            android:textColor="#8A2BE2"/>
 
-
-        <EditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:id="@+id/persons"/>
-
+            <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/persons"/>
 
     </LinearLayout>
 
@@ -64,12 +62,12 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/campaign"
-        android:layout_weight="1"
-        android:textColor="#8A2BE2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/campaign"
+            android:layout_weight="1"
+            android:textColor="#8A2BE2"/>
 
 
         <EditText
@@ -88,12 +86,11 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/round_down"
-        android:textColor="#8A2BE2"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/round_down"
+            android:textColor="#8A2BE2"/>
 
         <RadioGroup
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -145,5 +142,16 @@
         android:background="#66CDAA"
         android:textColor="#FFFFFF"/>
 
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今までの履歴を表示"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:background="#66CDAA"
+        android:textColor="#FFFFFF"
+        android:onClick="listView"
+        />
 
 </LinearLayout>
